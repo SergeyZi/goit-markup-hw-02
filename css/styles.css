@@ -2,6 +2,74 @@ body {
     font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
 }
-h1 {
-    color: brown;
+
+a {text-decoration: none;}
+
+ul, ol {list-style-type: none;}
+
+button {cursor: pointer;}
+
+
+
+/* #region HEADER */
+.header-page {}
+
+.header-page-nav{}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        /* color: #2e2f42;  вторая часть */
 }
+.logo-style {
+    color: #2e2f42;
+}
+
+.header-nav-page-list {}
+
+.header-nav-item {}
+
+.nav-item-link {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.nav-item-link:hover,
+.nav-item-link:focus {color: #4D5AE5;}
+
+.header-address {}
+
+.header-address-list {}
+
+.address-list-link {}
+
+.address-list-link-item {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.address-list-link-item:hover,
+.address-list-link-item:focus {
+    color: #4D5AE5;
+}
+
+
+/* #endregion */
+
+
+/* Main */
