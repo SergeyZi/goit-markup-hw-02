@@ -27,7 +27,7 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* color: #2e2f42;  вторая часть */
+    
 }
 .logo-style {
     color: #2e2f42;
@@ -60,8 +60,6 @@ button {cursor: pointer;}
 .address-list-link-item {
     font-weight: 400;
     font-size: 16px;
-    
-        /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -83,8 +81,6 @@ button {cursor: pointer;}
 .hero-titel {
     font-weight: 700;
     font-size: 56px;
-    
-    /* line-height: 60px; */
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
@@ -92,22 +88,15 @@ button {cursor: pointer;}
 }
 
 .hero-button {
-    /* border-radius: 4px; */
-    /* padding: 16px 32px; */
-    /* width: 169px; */
-    /* height: 56px; */
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background-color: #4d5ae5;
 }
 .hero-button:hover,
 .hero-button:focus {
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
-    background-color: #404bbf;
-    
+    background-color: #404bbf;  
 }
 /* #endregion */
 
@@ -152,12 +141,14 @@ button {cursor: pointer;}
     background-color: #FFFFFF;
 }
 
-/* .our-team-item {} */
+.our-team-item {
+    background-color: #FFFFFF;
+}
 
 .our-team-foto {
     width: 264px;
-    height: 260px;
     background-color: url("path_to_image");
+    background-color: #FFFFFF
 }
 
 .our-team-title-three {
@@ -166,6 +157,7 @@ button {cursor: pointer;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #FFFFFF;
 }
 
 .our-team-text {
@@ -174,6 +166,7 @@ button {cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFFFFF;
 }
 /* #endregion */
 
@@ -197,7 +190,6 @@ button {cursor: pointer;}
 
 .our-portfolio-img {
     width: 360px;
-    height: 300px; 
     background-color: url("path_to_image");
 }
 
