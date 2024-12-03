@@ -146,7 +146,6 @@ button {cursor: pointer;}
 }
 
 .our-team-foto {
-    width: 264px;
     background-color: url("path_to_image");
     background-color: #FFFFFF
 }
@@ -189,7 +188,6 @@ button {cursor: pointer;}
 /* .our-portfolio-item {} */
 
 .our-portfolio-img {
-    width: 360px;
     background-color: url("path_to_image");
 }
 
