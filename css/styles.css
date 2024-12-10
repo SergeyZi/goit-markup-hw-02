@@ -25,6 +25,10 @@ button {cursor: pointer;}
     padding: 0 15px;
 }
 
+.img {
+    display: block;
+}
+
 
 
 /* #region HEADER */
@@ -125,7 +129,7 @@ button {cursor: pointer;}
 }
 .hero-titel {
     display: flex;
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -134,8 +138,6 @@ button {cursor: pointer;}
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    
- 
 }
 
 .hero-button {
@@ -226,10 +228,10 @@ button {cursor: pointer;}
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
-    border-radius: 0 0 4px 4px;
     /* padding: 0px 0px 32px 0px; */
-    width: 264px;
-    height: 380px;
+    /* width: 264px;
+    height: 380px; */
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-title-two {
@@ -246,6 +248,7 @@ button {cursor: pointer;}
 
 .our-team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .our-team-foto {
@@ -261,9 +264,10 @@ button {cursor: pointer;}
     margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px;
-    gap: 8px;
+    /* gap: 8px; */
     width: 232px;
     height: 56px;
+    padding: 32px 0;
 
 }
 
@@ -274,6 +278,8 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #FFFFFF;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .our-team-text {
@@ -283,6 +289,7 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
+    text-align: center;
 }
 /* #endregion */
 
@@ -307,7 +314,8 @@ button {cursor: pointer;}
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 24px;
+    row-gap: 48px;
+    gap: 24px;
 } 
 
 /* .our-portfolio-item {} */
@@ -321,7 +329,7 @@ button {cursor: pointer;}
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    /* gap: 8px; */
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -331,12 +339,14 @@ button {cursor: pointer;}
 }
 
 .our-portfolio-title-three {
+    margin-bottom: 8px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-text {
@@ -353,16 +363,18 @@ button {cursor: pointer;}
 /* #region Footer */
 .footer {
     background-color: #2e2f42;
-    padding-top: 100px;
+    padding: 100px 0;
+    /* padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
+    padding-left: 156px; */
 }
 
 .logo {
-    display: block;
+    display: inline-block;
     /* padding-bottom: 16px;
     padding-top: 16px; */
-    padding: 16px 0px;
+    /* padding: 16px 0px; */
+    margin-bottom: 16px;
 }
 
 .footer-logo-style {
