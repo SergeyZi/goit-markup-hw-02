@@ -36,16 +36,6 @@ button {
     letter-spacing: 0.04em;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.img {
-    display: block;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -53,6 +43,9 @@ body {
 
 }
 
+img {
+    display: block; 
+}
 
 /* #region HEADER */
 
@@ -95,8 +88,6 @@ body {
     gap: 40px;
 }
 
-/* .header-nav-item {} */
-
 .nav-item-link {
     display: block;
     padding: 24px 0;
@@ -122,8 +113,6 @@ body {
     gap: 40px;
 
 }
-
-/* .address-list-link {} */
 
 .address-list-link-item {
     display: block;
@@ -260,8 +249,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
+    text-transform: capitalize;    color: #2e2f42;
     margin-bottom: 72px;
 }
 
